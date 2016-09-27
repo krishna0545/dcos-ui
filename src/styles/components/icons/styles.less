@@ -89,6 +89,15 @@
         color: color-lighten(@neutral, 70%);
       }
     }
+
+    &.icon-light-grey {
+      color: color-lighten(@neutral, 60%);
+    }
+
+    .button &,
+    button & {
+      flex: 0 0 auto;
+    }
   }
 
   & when (@icon-tiny-enabled) {
