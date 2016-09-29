@@ -147,8 +147,7 @@ class ServiceInfo extends React.Component {
     }
 
     const tabs = (
-      <ul className="menu-tabbed container-pod
-        container-pod-short-top inverse">
+      <ul className="menu-tabbed">
         {this.props.tabs}
       </ul>
     );
